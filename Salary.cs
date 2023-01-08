@@ -42,7 +42,7 @@ namespace MonthlyEarning
                 earningPerMonth -= maxTax;
                 Console.WriteLine($"Net earning is = {earningPerMonth}");
             }
-            Console.Write($"Amount of money per week dollar :$");
+            Console.Write($"Amount of money per week in dollar :$");
             return earningPerWeek;
 
 
