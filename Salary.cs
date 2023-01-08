@@ -12,7 +12,7 @@ namespace MonthlyEarning
             double earningPerDay = 25 * hoursOfWork;
             double earningPerWeek = 5 * earningPerDay;
             double earningPerMonth = 4 * earningPerWeek;
-            Console.WriteLine($"Gross money is = {earningPerMonth} dolar");
+            Console.WriteLine($"Gross money is = ${earningPerMonth} in dollar");
 
             if (hoursOfWork > 8 && hoursOfWork <= 24)
             {
