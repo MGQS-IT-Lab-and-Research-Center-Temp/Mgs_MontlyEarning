@@ -18,7 +18,7 @@ namespace MonthlyEarning
             {
                 double overTime = (hoursOfWork - 8) * 10;
                 double sum = overTime + earningPerDay;
-                Console.WriteLine($"over time money is {sum} dollar");
+                Console.WriteLine($"Over time money is {sum} dollar");
             }
 
             if (earningPerMonth <= 1000)
@@ -40,9 +40,9 @@ namespace MonthlyEarning
             {
                 double maxTax = ((double)9 / 200) * earningPerMonth;
                 earningPerMonth -= maxTax;
-                Console.WriteLine($"net earning is = {earningPerMonth}");
+                Console.WriteLine($"Net earning is = {earningPerMonth}");
             }
-            Console.Write($"amount of money per week dollar :$");
+            Console.Write($"Amount of money per week dollar :$");
             return earningPerWeek;
 
 
